@@ -1,0 +1,21 @@
+{
+    "name": "Josh Lipinski",
+    "short_name": "Josh Lipinski",
+    "icons": [{
+      "src": "images/josh128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+      },
+      {
+        "src": "images/josh256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }],
+    "start_url": "./index.html",
+    "prefer_related_applications": false,
+    "display": "standalone",
+    "scope": "./",
+    "orientation": "portrait-primary",
+    "background_color": "#d0d0d0",
+    "theme_color": "#d0d0d0"
+}
