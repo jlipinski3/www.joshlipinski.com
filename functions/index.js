@@ -18,8 +18,8 @@ contact form relay
 app.post('/send', (req, response, next) => {
   if(Boolean(req.body.email) && Boolean(req.body.realname)){
     //to make it work you need gmail account
-    const gmailEmail = functions.config().gmail.login;
-    const gmailPassword = functions.config().gmail.pass;
+    const gmailEmail = "josh@freshed.com";
+    const gmailPassword = "htovqmlixkqpcpyi"; //app password for nodemailerr
     
     const transporter = nodemailer.createTransport({
       service: 'gmail',//smtp.gmail.com  //in place of service use host...
